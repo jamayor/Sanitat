@@ -38,13 +38,13 @@
 
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="menu.php">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                        <a class="nav-link " href="menu.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="listado_medicos.php">Listado de Médicos</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="listado_hospitales.php">Listado de Hospitales</a>
                     </li>
                     <li class="nav-item">

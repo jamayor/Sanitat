@@ -67,10 +67,11 @@
             <div class="col-md-6">
                 <?php
 
-                $servername = "localhost"; // Cambia "localhost" por la dirección de tu servidor de base de datos si es diferente
-                $username = "root"; // Cambia "tu_usuario" por tu nombre de usuario de MySQL
-                $password = ""; // Cambia "tu_contraseña" por tu contraseña de MySQL
+                $servername = "34.88.54.4"; // Cambia "localhost" por la dirección de tu servidor de base de datos si es diferente
+                $username = "jamayor"; // Cambia "tu_usuario" por tu nombre de usuario de MySQL
+                $password = "deltahftris"; // Cambia "tu_contraseña" por tu contraseña de MySQL
                 $database = "sanitat"; // Cambia "tu_base_de_datos" por el nombre de tu base de datos
+
 
                 $conn2 = mysqli_connect($servername, $username, $password, $database);
                 $sql = "SELECT * FROM sanitat.doctor";
